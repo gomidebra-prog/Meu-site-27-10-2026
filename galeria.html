@@ -1,0 +1,86 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Galeria · Thiago Gomide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Big+Shoulders+Display:wght@700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0d11;--text:#eef0f3;--muted:#aeb7c2;--line:rgba(255,255,255,.14);--sand:#ff8a24;--paper:#f6f4f0;--ink:#14181f;--display:'Big Shoulders Display','Arial Narrow',Impact,sans-serif;--body:'Barlow',system-ui,sans-serif;color-scheme:dark}
+*{box-sizing:border-box}[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--text);font:400 16px/1.6 var(--body)}
+h1{margin:0;font:900 clamp(2.6rem,8vw,5rem)/.95 var(--display);text-transform:uppercase}
+a{color:inherit}
+#bg{position:fixed;inset:0;width:100%;height:100%;z-index:-1;display:block}
+.in{max-width:1180px;margin-inline:auto;padding-inline:max(16px,env(safe-area-inset-left,0px))}
+header{background:#0e1116;border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:58px;flex-wrap:wrap}
+.brand{font:900 1.5rem/1 var(--display);letter-spacing:.04em;text-decoration:none;padding:6px 10px;border:1px solid var(--line)}
+.back{padding:10px 16px;background:var(--sand);color:var(--ink);text-decoration:none;font:700 .8rem/1 var(--body);letter-spacing:.12em;text-transform:uppercase}
+.back:hover{background:var(--paper)}
+.label{font:600 .78rem/1 var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--sand);margin:44px 0 12px}
+.sub{color:var(--muted);max-width:56ch;margin:12px 0 0}
+.masonry{columns:3 260px;column-gap:14px;margin:28px 0 40px}
+.shot{break-inside:avoid;margin:0 0 14px;position:relative;cursor:zoom-in;background:#10141b}
+.shot img{display:block;width:100%;height:auto;border:1px solid var(--line)}
+.shot figcaption{position:absolute;left:0;bottom:0;padding:8px 12px;background:rgba(10,12,16,.88);font:600 .74rem/1 var(--body);letter-spacing:.12em;text-transform:uppercase}
+.end{margin:0 0 56px;padding:28px;background:var(--sand);color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.end b{font:900 clamp(1.6rem,4vw,2.4rem)/1 var(--display);text-transform:uppercase}
+.end a{padding:16px 28px;background:#0a0a0a;color:var(--paper);text-decoration:none;font:700 .9rem/1 var(--body);letter-spacing:.14em;text-transform:uppercase}
+#lb{position:fixed;inset:0;z-index:70;background:rgba(5,6,8,.94);display:flex;align-items:center;justify-content:center;padding:16px;cursor:zoom-out}
+#lb img{max-width:100%;max-height:100%;object-fit:contain}
+:focus-visible{outline:2px solid var(--sand);outline-offset:3px}
+</style></head><body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<header><div class="in nav"><a class="brand" href="index.html">T. GOMIDE</a><a class="back" href="index.html">&larr; Voltar ao site</a></div></header>
+<main class="in">
+  <p class="label">Galeria</p>
+  <h1>Em ação</h1>
+  <p class="sub">Alguns registros de prova e de treino. Toque em uma foto para ampliar.</p>
+  <div class="masonry">
+    <figure class="shot"><img src="img/saida-natacao.jpg" alt="Thiago Gomide saindo da água na largada de uma prova de triathlon" loading="lazy"><figcaption>Saída da natação</figcaption></figure>
+    <figure class="shot"><img src="img/podio.jpg" alt="Thiago Gomide no pódio de uma prova" loading="lazy"><figcaption>Pódio</figcaption></figure>
+    <figure class="shot"><img src="img/corrida-praia.jpg" alt="Thiago Gomide correndo na areia durante a transição" loading="lazy"><figcaption>Transição na praia</figcaption></figure>
+    <figure class="shot"><img src="img/pedal.jpg" alt="Thiago Gomide pedalando em prova" loading="lazy"><figcaption>No pedal</figcaption></figure>
+    <figure class="shot"><img src="img/treino-pista.jpg" alt="Thiago Gomide sorrindo em uma pista de atletismo azul" loading="lazy"><figcaption>Treino de pista</figcaption></figure>
+    <figure class="shot"><img src="img/corrida-orla.jpg" alt="Thiago Gomide correndo na orla durante uma prova" loading="lazy"><figcaption>Corrida na orla</figcaption></figure>
+    <figure class="shot"><img src="img/pre-largada.jpg" alt="Thiago Gomide antes da largada" loading="lazy"><figcaption>Pré-largada</figcaption></figure>
+    <figure class="shot"><img src="img/areia.jpg" alt="Thiago Gomide na areia durante uma prova" loading="lazy"><figcaption>Na areia</figcaption></figure>
+    <figure class="shot"><img src="img/corrida-grupo.jpg" alt="Thiago Gomide correndo em grupo" loading="lazy"><figcaption>Corrida em grupo</figcaption></figure>
+    <figure class="shot"><img src="img/corrida-49.jpg" alt="Thiago Gomide correndo com o número 49" loading="lazy"><figcaption>Corrida</figcaption></figure>
+    <figure class="shot"><img src="img/foco.jpg" alt="Thiago Gomide concentrado" loading="lazy"><figcaption>Foco</figcaption></figure>
+    <figure class="shot"><img src="img/momma-run.jpg" alt="Thiago Gomide correndo em prova" loading="lazy"><figcaption>Corrida</figcaption></figure>
+  </div>
+  <div class="end"><b>Quer baixar o seu tempo?</b><a href="index.html#contato">Falar sobre a consultoria</a></div>
+</main>
+<div id="lb" hidden><img alt=""></div>
+<script>
+(function(){
+'use strict';
+var PAL=[[23,27,34],[26,35,50],[31,61,44],[74,55,40]];
+function mulberry(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function tone(r){var c=PAL[Math.floor(r()*4)],f=.82+r()*.36;return 'rgb('+c.map(function(v){return Math.min(255,v*f|0)}).join(',')+')'}
+function plank(ctx,x,y,w,h,r){ctx.fillStyle=tone(r);ctx.fillRect(x,y,w,h);ctx.strokeStyle='rgba(0,0,0,.5)';ctx.lineWidth=1;ctx.strokeRect(x+.5,y+.5,w-1,h-1)}
+function herring(ctx,w,h,u,r){
+  ctx.save();ctx.rotate(Math.PI/4);
+  var maxX=(w+h)/Math.SQRT2,minY=-w/Math.SQRT2,maxY=h/Math.SQRT2,R=Math.ceil((w+h)/u)+6;
+  for(var n=-R;n<=R;n++)for(var m=-R;m<=R;m++){
+    var x=(3*n-m)*u,y=(n+m)*u;
+    if(x<-4*u||x>maxX+4*u||y<minY-4*u||y>maxY+4*u)continue;
+    plank(ctx,x,y,2*u,u,r);plank(ctx,x+2*u,y,u,2*u,r);
+  }
+  ctx.restore();
+}
+
+function paint(){
+  var cv=document.getElementById('bg'),w=cv.clientWidth,h=cv.clientHeight;if(!w||!h)return;
+  cv.width=w;cv.height=h;var ctx=cv.getContext('2d');herring(ctx,w,h,30,mulberry(101));
+  ctx.fillStyle='rgba(8,10,14,.62)';ctx.fillRect(0,0,w,h);
+}
+var lw=innerWidth,tm;paint();
+addEventListener('resize',function(){clearTimeout(tm);tm=setTimeout(function(){if(innerWidth!==lw){lw=innerWidth;paint()}},150)});
+var lb=document.getElementById('lb'),li=lb.querySelector('img');
+document.addEventListener('click',function(e){
+  var f=e.target.closest&&e.target.closest('.shot');
+  if(f){var im=f.querySelector('img');li.src=im.src;li.alt=im.alt;lb.hidden=false;return}
+  if(!lb.hidden)lb.hidden=true;
+});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.hidden=true});
+})();
+</script></body></html>
